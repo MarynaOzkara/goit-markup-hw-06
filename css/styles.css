@@ -562,6 +562,7 @@ button{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     transform: translate(-50%, -50%);
+    padding: 72px 24px 24px 24px;
 
 }
 .modal-close-btn{
@@ -590,4 +591,50 @@ button{
 .modal-close-btn:hover .modal-close-icon,
 .modal-close-btn:focus .modal-close-icon{
     fill: var(--primary-white);
+}
+
+/* -----------FORM--------*/
+
+.modal-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);
+    margin-bottom: 16px;
+}
+.modal-form{
+    
+}
+.modal-input{
+    width: 100%;
+    height: 40px;
+    opacity: 0.2;
+    border: 1px solid var(--main-title-color);
+    border-radius: 4px;
+    margin-bottom: 8px;
+    padding-left: 16px;
+}
+.modal-textarea{
+    width: 100%;
+    height: 120px;
+    opacity: 0.2;
+    border: 1px solid var(--main-title-color);
+    border-radius: 4px;
+    padding-left: 16px;
+    padding-top: 8px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--modal-bg);
+}
+.check-text{
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--customer-logo);
+    margin-bottom: 16px;
+}
+.modal-btn{
 }
