@@ -693,6 +693,7 @@ button{
     border-color: var(--primary-brend);
 }
 .modal-textarea{
+    display: block;
     width: 100%;
     height: 120px;
     border: 1px solid var(--input-border);
@@ -713,12 +714,6 @@ button{
 .modal-textarea:focus{
     outline: none;
     border-color: var(--primary-brend);
-}
-.check-text{
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    color: var(--customer-logo);
 }
 .modal-btn{
     display: block;
@@ -747,14 +742,12 @@ button{
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--customer-logo);
-    display: inline-block;
+    display: block;
     margin-bottom: 4px;
 }
 .modal-field{
-    margin-bottom: 8px;
-}
-.input-wrap{
     position: relative;
+    margin-bottom: 8px;
 }
 .input-icon{
     position: absolute;
@@ -767,13 +760,14 @@ button{
 .modal-input:focus + .input-icon{
     fill: var(--primary-brend);
 }
-.check-field{
-    margin-bottom: 24px;
-}
 .check-text{
     font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--customer-logo);
     display: flex;
     align-items: center;
+    margin-bottom: 24px;
 }
 .check-text::before{
     content: '';
@@ -791,6 +785,7 @@ button{
    background-position: center;
 }
 .check-link{
+    display: block;
     font-size: 12px;
     line-height: 1.33;
     letter-spacing: 0.04em;
